@@ -1,5 +1,14 @@
 <resources>
-    <string name="app_name">ITBoard</string>
-    <string name="btnSignIn">Sign in</string>
-    <string name="btnRegister">Log in</string>
+    <string name="app_name">Доска событий</string>
+    <string name="text_bottom">Войдите в свою учетную запись</string>
+    <string name="btnSignIn">Войти</string>
+    <string name="btnRegister">Зарегистрироваться</string>
+    <string name="hint_name_event">Название события</string>
+    <string name="hint_place_event">Где проходит</string>
+    <string name="hint_time_event">Время</string>
+    <string name="hint_date_event">ГГГГММДД</string>
+    <string name="hint_description_event">Описание события</string>
+    <string name="btn_choose_time">Выбрать время</string>
+    <string name="btn_add_event">Сохранить</string>
+    <string name="btn_my_event">Записи</string>
 </resources>

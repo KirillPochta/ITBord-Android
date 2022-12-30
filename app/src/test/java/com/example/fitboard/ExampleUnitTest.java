@@ -1,4 +1,4 @@
-package it.belstu.myapplication;
+package com.example.fitboard;
 
 import org.junit.Test;
 

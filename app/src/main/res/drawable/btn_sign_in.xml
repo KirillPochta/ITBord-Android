@@ -1,0 +1,13 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+    <item>
+        <shape android:shape="ring">
+            <solid android:color="@color/btn_sign_in"></solid>
+
+        </shape>
+    </item>
+</ripple>
+
+
+
+

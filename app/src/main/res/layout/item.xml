@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/ViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:text=""
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/ViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/ViewId"
+        android:text=""
+
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/ViewPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:text=""
+        android:layout_below="@id/ViewName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:layout_below="@id/ViewPlace"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/ViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:layout_below="@id/ViewTime"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/ViewDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/ViewDate"
+        android:text=""
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/ViewAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/ViewDesc"
+        android:text=""
+        android:textSize="18sp"/>
+
+</RelativeLayout>

@@ -1,1 +1,3 @@
-# ITBord-Android
+# FITBoard
+
+Application for creating events

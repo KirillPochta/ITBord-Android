@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/admin_element"
+    android:layout_height="match_parent"
+    tools:context=".NewsActivity">
+
+    <EditText
+        android:id="@+id/adminFilter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Поиск"
+        app:layout_constraintBottom_toTopOf="@+id/list_acc"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/list_acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adminFilter"/>
+<TextView
+    android:id="@+id/text_retrofit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/list_acc">
+</TextView>
+
+</RelativeLayout>

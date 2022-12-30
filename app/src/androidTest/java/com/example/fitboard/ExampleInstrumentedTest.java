@@ -1,4 +1,4 @@
-package it.belstu.myapplication;
+package com.example.fitboard;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("it.belstu.myapplication", appContext.getPackageName());
+        assertEquals("com.example.fitboard", appContext.getPackageName());
     }
 }
